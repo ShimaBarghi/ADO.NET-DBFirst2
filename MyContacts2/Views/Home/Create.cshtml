@@ -1,0 +1,43 @@
+﻿@model MyContacts2.Models.Peopel1
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create New Person</h2>
+<hr />
+<form action="/Home/Create" method="post">
+    <dl class="dl-horizontal">
+        <dt>
+            FullName:
+        </dt>
+        <dd>
+            <input type="text" class="form-control" name="FullName" />
+        </dd>
+        <dt>
+            Email:
+        </dt>
+        <dd>
+            <input type="email" class="form-control" name="Email" />
+        </dd>
+        <dt>
+            Website:
+        </dt>
+        <dd>
+            <input type="url" class="form-control" name="Website" />
+        </dd>
+        <dt>
+            Mobail:
+        </dt>
+        <dd>
+            <input type="number" class="form-control" name="Mobail" />
+        </dd>
+        </dd>
+        <dt>
+            
+        </dt>
+        <dd>
+            <input type="submit" class="btn btn-success" value="Save" />
+        </dd>
+    </dl>
+</form>
+
